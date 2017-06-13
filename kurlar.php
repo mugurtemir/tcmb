@@ -42,7 +42,7 @@ echo "
 		if($_POST)
 			{	
 			$ekle = $db->query("insert into subat (id, tarih ,doviz_turu ,alis_kuru, satis_kuru ) values ('null', '$tarih', '$dovizcinsi','$dovizalis', '$dovizsatis')");
-			header("Location: 2.php");
+			header("Location: kurlar.php");
 			}	
 		}	
 	}		
